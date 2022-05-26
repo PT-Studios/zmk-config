@@ -1,10 +1,9 @@
 file_format: "1"
 id: codemonkey
-name: codemonkey
+name: codeMonkey
 type: shield
-url: https://palmtree-studios.net
+url: https://introvertedape.com
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
   - encoder
