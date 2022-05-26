@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+	ext-power { 
+		init-delay-ms = <3000>;
+	};
+
 	sensors {
 		compatible = "zmk,keymap-sensors";
 		sensors = <&encoder_1>;
